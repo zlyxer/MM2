@@ -1,0 +1,6 @@
+function(state)
+            game:GetService("StarterGui"):SetCore("SendNotification", {
+                Title = "Loading..",
+                Text = "Please Wait",
+                Icon = "rbxassetid://1234567890"
+            })
